@@ -1,0 +1,101 @@
+ <style data-shopify>
+@font-face {
+font-family: "DM Sans";
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+src: url("//pettoysolutions.com/cdn/fonts/dm_sans/dmsans_n4.c96ee13ba72b3b94416f74d69e5511ad0682c6f0.woff2?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=adbcf851d4e2d60c786d8d474cc8527c0a66eba35fa7822688e6c253e2b0ed73") format("woff2"),
+   url("//pettoysolutions.com/cdn/fonts/dm_sans/dmsans_n4.a9ca3baffb915780e6561f29cd4b76fd6dc59966.woff?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=fea013c18ec3ec2a73a6b552059c21f170e49680cc5d42392fc9349904ae2a2d") format("woff");
+}
+
+@font-face {
+font-family: "DM Sans";
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+src: url("//pettoysolutions.com/cdn/fonts/dm_sans/dmsans_n5.9bce41f6331cb63f34699f22d94da6bf1cfe3e8d.woff2?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=33d7d29bd434cd25d9f2c81b960295c0748b07290effad375c1980750da5cd22") format("woff2"),
+   url("//pettoysolutions.com/cdn/fonts/dm_sans/dmsans_n5.70b8ec55e0ecc4f75b40227ca45418d24b40c1c0.woff?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=0e49bec7614be088ead4f273ea268d29a672c7c6e26e38c3594a5d370465477f") format("woff");
+}
+
+@font-face {
+font-family: "DM Sans";
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+src: url("//pettoysolutions.com/cdn/fonts/dm_sans/dmsans_i4.81c3f37c3553c296af7cdb67d682c1c817cd316c.woff2?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=b4bf07f5ee7b01b5adf6992e80c56b47a7b8288292024471bb76336cf02f4c46") format("woff2"),
+   url("//pettoysolutions.com/cdn/fonts/dm_sans/dmsans_i4.c85472239ebdf69b9e77bcb3fc07af0eece64bda.woff?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=8098e65bd8540b974460f7d0e393bafe90443a4e186acba9421718da43e7710d") format("woff");
+}
+
+
+    @font-face {
+font-family: "ITC Clearface";
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+src: url("//pettoysolutions.com/cdn/fonts/itc_clearface/itcclearface_n7.9f5e17613f1c79bf939e997402c6a337cb5a1918.woff2?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=e42e68a85fcc33f7b22a5c9673b8f7f2928db00bc4d8e402ad4f94fe9e81f9f6") format("woff2"),
+   url("//pettoysolutions.com/cdn/fonts/itc_clearface/itcclearface_n7.e3ea15eceb7664d2c5489ced18cca9f56fd7fa47.woff?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=1a76dbc802b0ad508a6e9c0a9da0eb9389ea9a2f0946f047bc9ba7d29f6f8aca") format("woff");
+}
+
+@font-face {
+font-family: "ITC Clearface";
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+src: url("//pettoysolutions.com/cdn/fonts/itc_clearface/itcclearface_n4.0b8e5be1178a7d02f1cb5b4354ada58ec706fc90.woff2?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=16fc27da33cd9533688d40809d550f99b7c2e374d43fd238013d735771c741d2") format("woff2"),
+   url("//pettoysolutions.com/cdn/fonts/itc_clearface/itcclearface_n4.3e5bedaa384b59e204df7f200155500d48e610ba.woff?h1=YzViYTZhLTIuYWNjb3VudC5teXNob3BpZnkuY29t&h2=cGV0dG95c29sdXRpb25zLmNvbQ&hmac=5a32bc1b98a6d11d39a2579083122deab7ec4db4d63bb7f0ece776dc3ff88f23") format("woff");
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6,
+.logolink.text-logo,
+.heading-font,
+.h1-xlarge,
+.h1-large,
+blockquote p,
+blockquote span,
+.customer-addresses .my-address .address-index {
+    font-style: normal;
+    font-weight: 700;
+    font-family: "ITC Clearface", serif;
+}
+body,
+.body-font,
+.thb-product-detail .product-title {
+    font-style: normal;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+}
+:root {
+
+    --font-body-scale: 1.0;
+    --font-body-line-height-scale: 1.0;
+    --font-body-letter-spacing: 0.0em;
+    --font-announcement-scale: 1.0;
+    --font-heading-scale: 1.0;
+    --font-heading-line-height-scale: 1.0;
+    --font-heading-letter-spacing: -0.02em;
+    --font-navigation-scale: 1.0;
+    --font-product-price-scale: 1.4;
+    --font-product-title-scale: 1.0;
+    --font-product-title-line-height-scale: 1.0;
+    --button-letter-spacing: 0.0em;
+
+    --block-border-radius: 6px;
+    --button-border-radius: 6px;
+    --input-border-radius: 6px;--bg-body: #ffffff;
+        --bg-body-rgb: 255,255,255;
+        --bg-body-darken: #f7f7f7;
+        --payment-terms-background-color: #ffffff;--color-body: #444249;
+      --color-body-rgb: 68,66,73;--color-heading: #5c4295;
+      --color-heading-rgb: 92,66,149;--color-accent: #5c4295;
+        --color-accent-hover: #4d377c;
+        --color-accent-rgb: 92,66,149;--color-border: #ebebed;--color-form-border: #e6e6e6;--color-overlay-rgb: 159,163,167;--color-drawer-bg: #ffffff;
+        --color-drawer-bg-rgb: 255,255,255;--color-announcement-bar-text: #eb4f45;--color-announcement-bar-bg: #ffedec;--color-secondary-menu-text: #2c2d2e;--color-secondary-menu-bg: #F5F5F5;--color-header-bg: #ffffff;
+        --color-header-bg-rgb: 255,255,255;--color-header-text: #5c4295;
+        --color-header-text-rgb: 92,66,149;--color-header-links: #5c4295;--color-header-links-hover: #eb4f45;--color-header-icons: #5c4295;--color-header-border: #E2E2E2;--solid-button-background: #eb4f45;
+        --solid-button-background-hover: #e83025;--solid-button-label: #ffffff;--white-button-label: #2c2d2e;--color-price: #eb4f45;
+        --color-price-rgb: 235,79,69;--color-price-discounted: #229fe4;--color-star: #FFAA47;--color-inventory-instock: #279A4B;--color-inventory-lowstock: #e97f32;--section-spacing-mobile: 50px;--section-spacing-desktop: 50px;--color-product-card-bg: rgba(0,0,0,0);--color-article-card-bg: #ffffff;--color-badge-text: #ffffff;--color-badge-sold-out: #6d6b6b;--color-badge-sale: #f25555;--badge-corner-radius: 6px;--color-footer-heading: #FFFFFF;
+        --color-footer-heading-rgb: 255,255,255;--color-footer-text: #dccffa;
+        --color-footer-text-rgb: 220,207,250;--color-footer-link: #ffffff;--color-footer-link-hover: #ffd79c;--color-footer-border: #795eb1;
+        --color-footer-border-rgb: 121,94,177;--color-footer-bg: #5c4295;}
+/* </style> */
