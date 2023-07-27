@@ -1,4 +1,4 @@
- <style data-shopify>
+ data-shopify
 @font-face {
 font-family: "DM Sans";
 font-weight: 400;
@@ -98,4 +98,29 @@ body,
         --color-footer-heading-rgb: 255,255,255;--color-footer-text: #dccffa;
         --color-footer-text-rgb: 220,207,250;--color-footer-link: #ffffff;--color-footer-link-hover: #ffd79c;--color-footer-border: #795eb1;
         --color-footer-border-rgb: 121,94,177;--color-footer-bg: #5c4295;}
+/* </style> */
+
+
+
+style id="shopify-dynamic-checkout-cart"@media screen and (min-width: 750px) {
+    #dynamic-checkout-cart {
+      min-height: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    #dynamic-checkout-cart {
+      min-height: 180px;
+    }
+  }
+  /* </style> */
+
+
+
+  /* <style data-shopify>:root { */
+
+  data-shopify:root {
+    --logo-height: 42px;
+    --logo-height-mobile: 26px;
+}
 /* </style> */
